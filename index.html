@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivos para viver um romance comigo ❤️🔥</title>
+    <style>
+        :root {
+            --deepseek-magenta: #ff00aa;
+            --deepseek-dark: #1a1a2e;
+            --deepseek-light: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--deepseek-dark);
+            color: white;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px dashed var(--deepseek-magenta);
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: var(--deepseek-magenta);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .reason {
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 5px solid var(--deepseek-magenta);
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .reason:hover {
+            background: rgba(255, 0, 170, 0.2);
+            transform: translateX(5px);
+        }
+        
+        .reason h2 {
+            color: var(--deepseek-magenta);
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .content {
+            display: none;
+            padding-top: 15px;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        img, video {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+            border: 2px solid var(--deepseek-magenta);
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 1.2rem;
+        }
+        
+        footer a {
+            color: var(--deepseek-magenta);
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        footer a:hover {
+            text-shadow: 0 0 10px var(--deepseek-magenta);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Motivos para viver um romance comigo 💘</h1>
+        <p>(O 4º vai te fazer pedir em casamento) 💍🔥</p>
+    </header>
+    
+    <main>
+        <!-- Estrutura para cada motivo romântico -->
+        <div class="reason" onclick="toggleContent(1)">
+            <h2>🍳 1. Sou um mestre das artes antigas da culinária (pão com ovo)</h2>
+            <div class="content" id="content-1">
+                <p>"Se não pela beleza vai pelo buxin, aqui vc vai ter a melhor comida da sua vida kkkk"</p>
+                <img src="c:/romante/images/nada_pacome.jpg" alt="Nada paCome nessa casa">
+            </div>
+        </div>
+        
+        <div class="reason" onclick="toggleContent(2)">
+            <h2>🎢 2. Mente vazia? Oficina do Thiago</h2>
+            <div class="content" id="content-2">
+                <p>"Cmg não tem tempo ruim, vai viver das mais diferentes até as melhores vivências cmg, desde uma cachoeira, tomar uma num barzin, f1 no zoológico a noite até viajarmos pra outro estado num domingo qualquer só pra n ficar no tédio kkk"</p>
+                <video src="c:/romante/videos/radical.mp4" controls></video>
+            </div>
+        </div>
+        
+        <div class="reason" onclick="toggleContent(3)">
+            <h2>😏 3. Te faço sorrir e a roupa sumir</h2>
+            <div class="content" id="content-3">
+                <p>"É aquele velho ditado romano né... vai rindo, rindo, qnd vê... já tá pelada"</p>
+                <video src="c:/romante/videos/seduction.mp4" controls></video>
+            </div>
+        </div>
+        
+        <div class="reason" onclick="toggleContent(4)">
+            <h2>🌹 4. Sim, faço parte de uma minoria: Os românticos</h2>
+            <div class="content" id="content-4">
+                <p>"Minha espécie segue em extinção, sigo forte (e sozinho) como último romântico na terra, vou te conquistar todo dia como se fosse o primeiro kkkk"</p>
+                <a href="https://wa.me/5519998662579?text=qnd%20vai%20colocar%20uma%20aliança%20no%20meu%20dedo%20gatinho?" class="whatsapp-btn">💍 Me pede em casamento no WhatsApp</a>
+            </div>
+        </div>
+        
+        <div class="reason" onclick="toggleContent(5)">
+            <h2>🍁 5. Te trago flores, daqlas q sei q ce gosta rs</h2>
+            <div class="content" id="content-5">
+                <p>"Dia longo? Patrão chato? Ta com fome? Ta feliz? Ah pouco importa, chega junto e vamo fumar 1,2,3 baseados pra eu brisar nesse teu sorriso kkkk"</p>
+                <img src="c:/romante/images/flores_verdes.jpg" alt="Flores verdes especiais">
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <a href="c:/romante/images/joao_frango.png" target="_blank">Cuidado vai se apaixonar 💘🔥</a>
+    </footer>
+
+    <script>
+        function toggleContent(id) {
+            const content = document.getElementById(`content-${id}`);
+            const isVisible = content.style.display === 'block';
+            
+            // Fecha todos os conteúdos primeiro
+            document.querySelectorAll('.content').forEach(el => {
+                el.style.display = 'none';
+            });
+            
+            // Abre apenas o selecionado se não estiver visível
+            if (!isVisible) {
+                content.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
